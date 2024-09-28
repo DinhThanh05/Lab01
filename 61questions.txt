@@ -1,0 +1,7 @@
+Câu trả lời cho phần Questions của bài 6.1:
+
+-Điều gì sẽ xảy ra nếu người dùng chọn "Cancel"?
+Nếu người dùng chọn "Cancel", hộp thoại sẽ không trả về bất kỳ giá trị nào, và thường chuỗi null sẽ được trả về. Tuỳ thuộc vào cách chúng ta xử lý, chương trình có thể bỏ qua việc nhận giá trị từ hộp thoại hoặc có thể kết thúc.
+
+-Làm thế nào để tùy chỉnh các tùy chọn hiển thị cho người dùng (ví dụ: chỉ có hai tùy chọn "Yes" và "No" hoặc "I do" và "I don't")?
+Chúng ta có thể tùy chỉnh các lựa chọn của người dùng trong hộp thoại bằng cách sử dụng phương thức JOptionPane.showOptionDialog. Phương thức này cho phép chúng ta xác định các nút lựa chọn tùy chỉnh, như "Yes" và "No" hoặc "I do" và "I don’t", bằng cách truyền một mảng các chuỗi (String) tương ứng với các lựa chọn.
